@@ -12,7 +12,7 @@ function onTel() {
   document.body.removeChild(input);
 }
 
-function onGoolePlay() {
+function onGooglePlay() {
   window.open(
     "https://play.google.com/store/apps/details?id=com.ian.grosiraja"
   );
@@ -22,8 +22,8 @@ function onAppStore() {
   window.open("https://apps.apple.com/cn/app/grosiraja/id1527875183");
 }
 
-function onYouTube() {
-  window.open("https://www.youtube.com/channel/UCRC-awYibWgFSBgAUtQ4Arw");
+function onLinkedin() {
+  window.open("https://www.linkedin.com/");
 }
 
 function onFacebook() {

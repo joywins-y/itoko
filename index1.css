@@ -1,15 +1,9 @@
 .head_container {
   position: relative;
   width: 100%;
-  height: 662px;
-  min-height: 662px;
-}
-
-@media (max-width: 800px) {
-  /*如果媒体满足0到800 之间,那么会应用这里面的样式*/
-  .head_container {
-    min-height: 762px;
-  }
+  height: 1012px;
+  /* height: auto; */
+  max-height: 1012px;
 }
 
 .head_container a {
@@ -80,7 +74,7 @@
 }
 
 .head_container .head_title .get_btn button {
-  font-family: Poppins;
+  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -101,12 +95,20 @@
 
 .why_us {
   width: 100%;
-  margin-top: -10.5%;
+  margin-top: -256px;
   position: relative;
-  padding-bottom: 122px;
+  /* margin-bottom: 120px; */
+  padding-bottom: 150px;
   background: #fff;
   border-radius: 70px 0 70px 0;
 }
+
+/* .why_us .bg_1 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background: chartreuse;
+} */
 
 .why_us .mobile-bg {
   display: flex;
@@ -130,9 +132,9 @@
   line-height: 4.3125rem;
   color: #000;
   text-align: center;
-  padding-bottom: 70px;
+  margin-top: 100px;
+  margin-bottom: 57px;
   position: relative;
-  padding-top: 66px;
 }
 
 .why_us .card-content {
@@ -152,14 +154,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.why_us .card-content .left img,
-.why_us .card-content .right img {
-  width: 100%;
-  max-width: 477px;
-  height: auto;
-  object-fit: cover;
 }
 
 @media (max-width: 800px) {
@@ -201,28 +195,28 @@
 .hero {
   width: 100%;
   position: relative;
+  /* margin-top: -169px; */
   z-index: -1;
   max-height: 743px;
-  margin-top: -11%;
 }
 
 .hero img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  margin-top: -11%;
 }
 
 .set-shop {
   width: 100%;
-  margin-top: 6.25rem;
+  margin-top: 110px;
 }
 
 .set-shop .title {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 2.875rem;
-  line-height: 4.3125rem;
+  font-size: 46px;
+  line-height: 69px;
   text-align: center;
   width: 100%;
 }
@@ -231,22 +225,24 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 4.375rem;
+  padding-top: 77px;
+  /* padding: 77px 95px 33px 119px; */
 }
 
 .set-shop ul li {
   display: flex;
-  margin-bottom: 6.875rem;
+  margin-bottom: 72px;
+  min-height: 320px;
 }
 
 .set-shop ul li .img-box {
-  max-width: 24.8125rem;
+  max-width: 20rem;
   max-height: 20rem;
 }
 
 .set-shop ul li .img-box img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
 }
 
