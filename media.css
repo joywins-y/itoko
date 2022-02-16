@@ -1,0 +1,153 @@
+@media (max-width: 800px) {
+  /*如果媒体满足0到800 之间,那么会应用这里面的样式*/
+  .head_container {
+    min-height: 277px;
+  }
+  .head_container .head_title {
+    top: 82px !important;
+  }
+  .head_container .head_title h1 {
+    line-height: 95%;
+    font-size: 20px;
+  }
+  .head_container .head_title p {
+    font-size: 12px;
+    line-height: 95%;
+    margin: 16px 0 26px;
+  }
+  .head_container .btn-down {
+    right: 16px;
+    top: 18px;
+  }
+  .head_container .btn-down button {
+    min-width: 121px;
+    min-height: 24px;
+    font-size: 10px;
+  }
+  .head_container .head_title .btn-bangun button {
+    min-width: 169px;
+    min-height: 30px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .why_us {
+    padding-bottom: 51px;
+  }
+  .why_us .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333;
+    padding: 2rem 0;
+  }
+  .why_us .card-content li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .why_us .card-content li img {
+    width: 208px;
+    height: 132px;
+  }
+  .why_us .card-content li p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .why_us .card-content li p span:first-of-type {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333;
+  }
+  .why_us .card-content li p span:last-of-type {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 120%;
+    color: #61646b;
+  }
+  .why_us .card-content li:not(:nth-last-child(1)) p span:last-of-type {
+    margin-bottom: 44px;
+  }
+}
+@media (max-width: 800px) {
+  .hero {
+    min-height: 283px;
+    background-color: khaki;
+  }
+  .hero .content {
+    width: 343px;
+    height: 163px;
+    border-radius: 16px;
+    bottom: 42px;
+  }
+  .hero .content .quotation {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .hero .content .text {
+    width: 273px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .content .quotation.left {
+    top: 14px;
+  }
+  .hero .content .quotation.right {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .set-shop {
+    margin-top: 32px;
+  }
+  .set-shop .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+  }
+  .set-shop ul {
+    padding-top: 32px;
+  }
+  .set-shop ul li {
+    margin-bottom: 38px;
+  }
+  .set-shop .step-list li .img-box {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+    width: 119px;
+    height: 80.51px;
+  }
+  .set-shop .step-list li .step span:first-of-type,
+  .set-shop .step-list li .step span:last-of-type {
+    /* font-weight: 800; */
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 800px) {
+  .send-email {
+    width: 100%;
+    height: auto;
+    min-height: 632px;
+    margin-bottom: -17px;
+    background-image: url("assets/images/mobile-send.png");
+  }
+}
+
+@media (max-width: 800px) {
+  .footer_box .top-content div .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -17,22 +17,25 @@
     />
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <section style="width: 100%">
-      <div class="head_container">
-        <img src="assets/images/bg1.png" alt="background" class="img_bg" />
-        <a href="index.html#head-download">
-          <button class="btn_down">Download Grosiraja</button>
+      <div class="head_container" style="background-color: indianred">
+        <video id="video" autoplay loop muted poster="assets/images/bg1.png">
+          <source src="assets/images/video.mp" type="video/mp4" />
+        </video>
+        <a href="index.html#head-download" class="btn-down">
+          <button class="a-btn">Download Grosiraja</button>
         </a>
-        <div class="head_title col">
-          <h1>Bangun toko Anda sendiri dengan satu klik</h1>
-          <p>
+        <div class="head_title col-12">
+          <h1 class="text-center">Bangun toko Anda sendiri dengan satu klik</h1>
+          <p class="text-center">
             Bangun toko Anda sendiri secara gratis & Promosikan di platform
             sosial Anda
           </p>
-          <a href="index.html#set-shop" class="get_btn">
-            <button>Bangun toko gratis!</button>
+          <a href="index.html#set-shop" class="btn-bangun">
+            <button class="a-btn">Bangun toko gratis!</button>
           </a>
         </div>
       </div>
@@ -40,50 +43,67 @@
 
     <section>
       <div class="why_us">
-        <!-- <div class="mobile-bg">
-          <img src="assets/images/mobile-bg.png" alt="" />
-        </div> -->
-
-        <div class="title">Mengapa Memilih Kami ?</div>
-        <div class="card-content">
+        <div class="title text-center">Mengapa Memilih Kami ?</div>
+        <ul class="row d-flex card-content justify-content-around">
+          <li class="col-12 col-md-6">
+            <img src="assets/images/card-left1.png" alt="Masukan Produk" />
+            <p class="row">
+              <span class="col-12">Masukan Produk dengan Cepat</span>
+              <span class="col-12">
+                Di APP Grosiraja, pilih produk yang ingin Anda letakkan di rak
+                toko, dan distribusikan produk ke toko Anda dengan satu klik,
+                Praktis untuk Pembeli
+              </span>
+            </p>
+          </li>
+          <li class="col-12 col-md-6">
+            <img src="assets/images/card-right1.png" alt="Pelajari Data" />
+            <p class="row">
+              <span class="col-12">Pelajari Data Penjualan Anda </span>
+              <span class="col-12">
+                Di APP Grosiraja, Anda dapat melihat data transaksi, data
+                produk, dan data traffic toko
+              </span>
+            </p>
+          </li>
+        </ul>
+        <!-- <div class="card-content">
           <div class="left col">
-            <div style="max-width: 565px">
-              <img src="assets/images/card-left1.png" alt="Masukan Produk" />
-              <p>
-                <span>Masukan Produk dengan Cepat</span>
-                <span>
-                  Di APP Grosiraja, pilih produk yang ingin Anda letakkan di rak
-                  toko, dan distribusikan produk ke toko Anda dengan satu klik,
-                  Praktis untuk Pembeli
-                </span>
-              </p>
-            </div>
+            <div style="max-width: 565px"></div>
           </div>
           <div class="right col">
-            <div style="max-width: 565px">
-              <img src="assets/images/card-right1.png" alt="Pelajari Data" />
-              <p>
-                <span>Pelajari Data Penjualan Anda </span>
-                <span>
-                  Di APP Grosiraja, Anda dapat melihat data transaksi, data
-                  produk, dan data traffic toko
-                </span>
-              </p>
-            </div>
+            <div style="max-width: 565px"></div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <section>
       <div class="hero">
-        <img src="assets/images/hero-image1.png" alt="hero-image" />
+        <div class="">
+          <img
+            src="assets/images/hero-image2.png"
+            alt="hero-image"
+            class="img-fluid hero-image"
+          />
+        </div>
+        <div class="content d-flex justify-content-center align-items-center">
+          <span class="quotation left">“</span>
+          <span class="text">
+            Grosiraja™ adalah platform grosir e-commerce B2B satu atap untuk
+            reseller, dropshippers di Indonesia, dengan pilihan produk dari
+            seluruh dunia!
+          </span>
+          <span class="quotation right">“</span>
+        </div>
       </div>
     </section>
 
     <section>
       <div class="set-shop" id="set-shop">
-        <div class="title">Bangun Toko Anda Sendiri ?</div>
+        <div class="title d-flex justify-content-center">
+          Bangun Toko Anda Sendiri ?
+        </div>
         <ul class="step-list row">
           <li class="col-12">
             <div class="img-box col-3">
@@ -157,9 +177,7 @@
     </section>
 
     <section>
-      <div class="send-email">
-        <img src="assets/images/send-email1.png" alt="" />
-      </div>
+      <div class="send-email"></div>
     </section>
 
     <section>
@@ -227,13 +245,13 @@
           <div class="about col" id="head-download">
             <div class="title">Kontak Kami:</div>
             <div class="text1">
-              Website:
+              WEBSITE:
               <a href="https://www.grosiraja.com" style="color: #fff">
                 https://www.grosiraja.com
               </a>
             </div>
             <div class="text2">
-              Whatsapp & CS: <span onclick="onTel()">+62-898-4233-666</span>
+              WHATSAPP & CS: <span onclick="onTel()">+62-898-4233-666</span>
             </div>
           </div>
         </div>
