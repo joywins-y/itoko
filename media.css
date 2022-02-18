@@ -2,6 +2,8 @@
   /*如果媒体满足0到800 之间,那么会应用这里面的样式*/
   .head_container {
     min-height: 277px;
+    background-image: url('assets/images/bg2.png');
+    background-size: cover;
   }
   .head_container .head_title {
     top: 82px !important;
@@ -75,8 +77,10 @@
 }
 @media (max-width: 800px) {
   .hero {
-    min-height: 283px;
     background-color: khaki;
+    background-image: url("assets/images/hero-image3.png");
+    height: 283px;
+    min-height: 283px;
   }
   .hero .content {
     width: 343px;
@@ -145,9 +149,42 @@
 }
 
 @media (max-width: 800px) {
+  .footer_box{
+    padding-bottom: 18px;
+    min-height: 354px;
+  }
+  .footer_box .top-content{
+    padding-top: 28px;
+  }
+  .footer_box .top-content .get-app .content{
+      margin-top: 10px;
+  }
+  .footer_box .top-content > div {
+    margin-bottom: 28px;
+  }
   .footer_box .top-content div .title {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+  }
+  .footer_box .top-content .follow-us .content {
+    margin-top: 10px;
+  }
+  .footer_box .top-content .follow-us .content a > img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .footer_box .top-content .about .text1 {
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  .footer_box .top-content .about .text1,
+  .footer_box .top-content .about .text2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer_box .copyright{
+    margin-top: 44px;
   }
 }

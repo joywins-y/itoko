@@ -138,9 +138,13 @@
 }
 
 .hero {
+  width: 100%;
   margin-top: -11%;
   position: relative;
   z-index: -1;
+  background-image: url("assets/images/hero-image2.png");
+  background-size: cover;
+  height: 734px;
 }
 
 .hero .hero-image {
@@ -151,6 +155,7 @@
 .hero .content {
   position: absolute;
   width: 974px;
+  max-width: 70%;
   height: 401px;
   margin: 0 auto;
   left: 0;
@@ -169,7 +174,8 @@
   line-height: 130%;
   color: #fff;
   display: inline-block;
-  width: 808px;
+  width: 85%;
+  text-align: center;
 }
 
 .hero .content .quotation {
