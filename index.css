@@ -9,7 +9,7 @@
 .head_container video {
   width: 100%;
   height: 100%;
-  background: url('assets/images/bg1.png');
+  background: url("assets/images/bg1.png");
   min-height: 100%;
   max-width: 100%;
   object-fit: cover;
@@ -145,7 +145,7 @@
   margin-top: -11%;
   position: relative;
   z-index: -1;
-  background-image: url('assets/images/hero-image1.png');
+  background-image: url("assets/images/hero-image1.png");
   background-size: cover;
   background-position: center;
   height: 734px;
@@ -277,19 +277,120 @@
   color: #61646b;
 }
 
-.send-email {
+.send-email-box {
   width: 100%;
-  height: auto;
-  min-height: 100px;
-  background-image: url('assets/images/web-send.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 48vw;
+  background: #1db489;
+  height: 694px;
+  height: 48.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.send-email img {
+.send-email-box .left {
+  width: 466px;
+  width: 32.36vw;
+}
+
+.send-email-box .left p {
+  font-family: Poppins;
+  font-style: normal;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.send-email-box .left .title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+  margin-bottom: 20px;
+}
+
+.send-email-box .left .desc {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.send-email-box .right {
+  width: 747px;
+  height: 638px;
+  margin-left: 2.5625rem;
+  align-self: flex-end;
+  background-color: #fff;
+  border-radius: 50px 50px 0 0;
+  padding-top: 3.5625rem;
+}
+
+.send-email-box .right p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 84.07%;
+  margin: auto;
+}
+
+.send-email-box .right p .label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6a6a6a;
+}
+
+.send-email-box .right p input {
+  width: 81.25%;
+  max-width: 495px;
+  height: 3rem;
+  border: 1px solid #dee5ef;
+  box-sizing: border-box;
+  border-radius: 31px;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.send-email-box .right p.from {
+  margin-top: 32px;
+  margin-bottom: 46px;
+}
+
+.send-email-box .right p.content {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.send-email-box textarea {
   width: 100%;
-  height: auto;
+  height: 206px;
+  border: 1px solid #dee5ef;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+.send-email-box .right .kirim {
+  margin-top: 43px;
+}
+.send-email-box .right .kirim a {
+  width: 403px;
+  height: 56px;
+  background: #1db489;
+  border-radius: 45px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
 }
 
 .footer_box {

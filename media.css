@@ -145,12 +145,108 @@
   }
 }
 
+@media (max-width: 800px) {
+  .send-email-box .left .title {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .send-email-box .left .desc {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .send-email-box .right {
+    width: 51.875vw;
+    height: 44.3vw;
+    border-radius: 30px 30px 0 0;
+    padding-top: 25px;
+  }
+
+  .send-email-box .right p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 0.9375rem;
+  }
+
+  .send-email-box .right p .label {
+    font-size: 10px;
+    line-height: 0.9375rem;
+  }
+
+  .send-email-box .right p input {
+    font-size: 10px;
+  }
+
+  .send-email-box .right p.from {
+    margin-top: 14px;
+    margin-bottom: 30px;
+  }
+
+  .send-email-box textarea {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    height: 32.28%;
+    padding: 8px 10px;
+  }
+
+  .send-email-box .right .kirim a {
+    width: 170px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 767.98px) {
-  .send-email {
+  .send-email-box {
     width: 100%;
-    min-height: 168vw;
-    margin-bottom: -17px;
-    background-image: url("assets/images/mobile-send.png");
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .send-email-box .left {
+    width: 343px;
+    width: 91.46vw;
+    position: absolute;
+    top: 26px;
+  }
+
+  .send-email-box .left p {
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .send-email-box .right {
+    width: 343px;
+    width: 91.46vw;
+    height: 27.6875rem;
+    align-self: center;
+    padding: 1.5rem 1.125rem 0;
+    margin-left: 0;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .send-email-box .right p input {
+    height: 2.625rem;
+  }
+
+  .send-email-box textarea {
+    height: 176px;
+  }
+  .send-email-box .right .kirim {
+    margin-top: 30px;
+  }
+  .send-email-box .right .kirim a {
+    width: 45vw;
+    height: 30px;
   }
 }
 
